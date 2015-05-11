@@ -4,11 +4,11 @@
 var APP                 = require('./components/app');
 var GenericButton       = require('./components/GenericButton');
 var DashBoard           = require('./components/DashBoard');
-var MainApp           = require('./components/MainApp');
+var MainApp             = require('./components/MainApp');
+var Twitter             = require('./components/twitter/twitter-component');
 
 var React               = require('react');
 var Flux                = require('flux');
-
 
 
 React.render(
@@ -29,6 +29,12 @@ React.render(
 React.render(
     <MainApp  />,
     document.getElementById("main-app")
+);
+
+
+React.render(
+    <Twitter  />,
+    document.getElementById("twitter-app")
 );
 
 

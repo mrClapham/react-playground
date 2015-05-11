@@ -14,5 +14,4 @@ var MainPage = React.createClass({
 
 })
 
-
 module.exports = MainPage;

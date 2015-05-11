@@ -52,24 +52,3 @@ var AppStore = merge(EventEmmitter.prototype, {
 })
 
 module.exports = AppStore;
-
-
-/*
-
-
-
- ,
- dt:AppDispatcher.register(function(payload){
-
- console.log("PAYLOAD ")
- //        var action = payload.action;
- //        switch(action.actionType){
- //            case AppConstatnts.TEST_CHANGED :
- //                _increaseCount(payload.value)
- //            break;
-
- // }
- //AppStore.emitChange();
- return true;
- })
- */
